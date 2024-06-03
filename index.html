@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" 
+      type="image/png" 
+      href="https://www.shareicon.net/data/512x512/2016/04/05/744963_heart_512x512.png">
+    <link href="metal.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Lab - index">
+    <meta name="author" content="Raspberry Kitten">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      HTML Lab
+    </title>
+    <script src="behavior.js"></script>
+    <script src="colorscheme.js"></script>
+  </head>
+  <body class="works_on_smartphone" id="body">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <header id="header">
+<div class="right">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+      
+                        
+         <div class="fb-share-button" data-href="http://213.167.242.52" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F213.167.242.52%2F&amp;src=sdkpreparse">Share</a></div>
+
+      </div>
+        <div class="logo"><a href="index.html"><img src="https://www.shareicon.net/data/512x512/2016/04/05/744963_heart_512x512.png" alt="  MetalKittens" class="small"></a></div>
+      <ul>
+
+       <li><a href="index.html">Index</a></li>
+       <li><a href="listeners.html">Listeners</a></li>
+       <li><a href="themes.html">Themes</a></li>
+       <li><a href="clockwork.html">Clockwork</a></li>
+       <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
+    <main id="main"> 
+      <article id="article">
+
+     <h1>HTML Laboratory</h1> <!-- HTML Laboratory -->
+     <p> Welcome Kittens, to my HTML lab!
+         Throughout this website we'll take a closer look at how HTML,
+         CSS, and Javascript interact within   Metal's website tutorial,
+         using a few brief experiments as examples. 
+         Click <a href="listeners.html">next</a> to begin.
+     </p>
+<!--      <a href="https://www.  MetalKittens.com">
+        <img src="https://www.  MetalKittens.com/  Metal-logo.png" alt="  MetalLogo">
+     </a> -->
+     <hr />
+     <h2>Rules are the foundation</h2> <!-- Rules are the foundation -->
+<!--         <p>
+             I'll pin   Metal's css here for reference.
+        </p>
+           <div class="responsive_container">
+           <iframe class="mobile_happy" src="https://www.  MetalKittens.com/level2/metal.css">
+           </iframe>
+           </div> -->
+
+        <h3>Selectors & Declarations</h3> <!-- Selectors -->
+         <p>
+             If you scroll to the bottom of the css above,
+             you should see these two rules at the end: <br><br>
+            <em>img { max-width: 100% } <br> 
+                        img.small { width: 100px }</em>
+           <br><br>
+	   'img' refers to image elements, 
+	   and 'img.small' refers to image elements of the class 'small'.
+           Everything within { } are declarations that get applied to select elements.
+        </p>
+     <hr />
+
+     <h2>HTML is the machine</h2> <!-- HTML is the machine parts -->
+      <h3>Elements & Classes</h3>
+        <p> 
+	We can give Html elements classes, like ".small" or ".works_on_mobile", and
+	if we change an html element's class list, then different rules may apply to that element!
+	The question then becomes, how do change an html element's class list dynamically?<br>
+ <img class="small" id="smart_thumbnail" src="https://www.personalitycafe.com/d1/avatars/o/521/521465.jpg?1673230761" alt="Snowy in Massachusetts"><br>	
+(click thumbnail to resize)<br>
+        </p>
+       
+     <hr />
+
+     <h2>Javascript is the engine</h2> <!-- Javascript is the engine -->
+      <h3>Event Listeners</h3> <!-- Class Changes -->
+       <p>
+          We tend to swap a class whenever something is clicked or selected,
+          so that the website feels <em>responsive</em> to the touch. <a href="listeners.html">Next</a>.
+      </p>
+    </article>
+
+   </main>
+   <footer id="footer"><p>Made by  Raspberry Kitten</a> for     Metal Kittens</a>.</p></footer>
+  </body>
+</html>
